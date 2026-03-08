@@ -1,0 +1,1 @@
+# WiCyS-TryHackMe-CTF
