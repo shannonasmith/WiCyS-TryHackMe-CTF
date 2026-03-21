@@ -2,13 +2,28 @@
 
 # 🏁 WiCyS / TryHackMe Tier 2 CTF
 
-## 🧠 Advanced Security Investigation Portfolio
+## 🧠 Security Investigation Training & Practice
 
 ![Event](https://img.shields.io/badge/Event-WiCyS%20CTF-6A0DAD?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Web%20Security%20%7C%20Forensics%20%7C%20OSINT-blue?style=for-the-badge)
 ![Approach](https://img.shields.io/badge/Approach-Investigation%20First-success?style=for-the-badge)
 
 </div>
+
+---
+
+## 🧠 Purpose
+
+This repository contains hands-on Capture-the-Flag (CTF) challenges completed through the WiCyS Security Training Scholarship and TryHackMe platform.
+
+These challenges were used to develop practical cybersecurity skills that directly support my investigation-based portfolio projects, including:
+
+- network traffic analysis (Wireshark)  
+- log analysis and SIEM investigations (Splunk)  
+- web application security testing  
+- forensic artifact analysis  
+
+This work represents structured skill development and reinforces real-world security investigation workflows.
 
 ---
 
@@ -20,26 +35,36 @@ Rather than focusing only on solving challenges, each task was approached as a *
 
 The goals of this Tier 2 event were to:
 
-* 🔁 Apply structured investigative workflows to more complex systems
-* 🔍 Analyze attacker artifacts across multiple domains
-* 🧾 Strengthen forensic artifact reconstruction skills
-* 🧭 Practice analytical pivoting when investigative paths fail
-* 📚 Continue building a documented repository of security investigation techniques
+* 🔁 Apply structured investigative workflows to more complex systems  
+* 🔍 Analyze attacker artifacts across multiple domains  
+* 🧾 Strengthen forensic artifact reconstruction skills  
+* 🧭 Practice analytical pivoting when investigative paths fail  
+* 📚 Continue building a documented repository of security investigation techniques  
 
 All writeups focus on **methodology, reasoning, and investigative workflow**.
 
 To respect competition integrity:
 
-* ❌ Flags are not published
-* ❌ Protected answers are not disclosed
-* ✔ Only investigative techniques and analysis are documented
+* ❌ Flags are not published  
+* ❌ Protected answers are not disclosed  
+* ✔ Only investigative techniques and analysis are documented  
 
 ---
 
-# 🛠 Technical Domains Practiced
+## 🔗 Related Portfolio Projects
+
+These challenges support the following investigation-based projects:
+
+- Suspicious Network Traffic (Wireshark Analysis)  
+- Suspicious Authentication Activity (Splunk SIEM Investigation)  
+- NotPetya Incident Response Analysis  
+
+---
+
+## 🛠 Technical Domains Practiced
 
 | Domain                   | Focus Area                                                 |
-| ------------------------ | ---------------------------------------------------------- |
+|--------------------------|------------------------------------------------------------|
 | 🌐 Web Security          | Input manipulation, parameter tampering, command injection |
 | 🔐 Cryptography          | Encoding analysis, hashing, RSA decryption                 |
 | 📄 Digital Forensics     | Artifact inspection, data recovery, layered archives       |
@@ -51,7 +76,7 @@ To respect competition integrity:
 
 ---
 
-# 🧩 Documented Challenges
+## 🧩 Challenge Writeups
 
 ---
 
@@ -61,9 +86,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./endpoint)
 
-* Investigated application behavior through endpoint enumeration
-* Analyzed server responses to identify exposed functionality
-* Demonstrated risks of improperly protected endpoints
+* Investigated application behavior through endpoint enumeration  
+* Analyzed server responses to identify exposed functionality  
+* Demonstrated risks of improperly protected endpoints  
 
 ---
 
@@ -71,9 +96,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./notepad-online)
 
-* Investigated a web-based note storage system
-* Manipulated request parameters to test authorization controls
-* Demonstrated an **Insecure Direct Object Reference (IDOR)** vulnerability
+* Investigated a web-based note storage system  
+* Manipulated request parameters to test authorization controls  
+* Demonstrated an **Insecure Direct Object Reference (IDOR)** vulnerability  
 
 ---
 
@@ -81,9 +106,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./scanner)
 
-* Analyzed application scanning functionality
-* Investigated server responses to determine backend behavior
-* Identified weaknesses in how the application processed user input
+* Analyzed application scanning functionality  
+* Investigated server responses to determine backend behavior  
+* Identified weaknesses in how the application processed user input  
 
 ---
 
@@ -91,9 +116,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./time-travel)
 
-* Investigated historical application states and responses
-* Identified hidden information within previous versions of application content
-* Demonstrated the value of analyzing **application history**
+* Investigated historical application states and responses  
+* Identified hidden information within previous versions of application content  
+* Demonstrated the value of analyzing **application history**  
 
 ---
 
@@ -101,9 +126,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./arcanum)
 
-* Explored hidden functionality within a web application
-* Identified unexpected server responses through manual testing
-* Demonstrated investigative enumeration techniques
+* Explored hidden functionality within a web application  
+* Identified unexpected server responses through manual testing  
+* Demonstrated investigative enumeration techniques  
 
 ---
 
@@ -111,9 +136,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./what-does-the-cow-say)
 
-* Tested user input fields for command injection behavior
-* Executed shell commands through unsanitized application input
-* Demonstrated server-side command execution vulnerabilities
+* Tested user input fields for command injection behavior  
+* Executed shell commands through unsanitized application input  
+* Demonstrated server-side command execution vulnerabilities  
 
 ---
 
@@ -121,9 +146,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./the-sequel)
 
-* Investigated application responses for hidden data exposure
-* Identified vulnerabilities through input manipulation
-* Demonstrated how improper validation can expose sensitive information
+* Investigated application responses for hidden data exposure  
+* Identified vulnerabilities through input manipulation  
+* Demonstrated how improper validation can expose sensitive information  
 
 ---
 
@@ -133,9 +158,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./b4sed)
 
-* Identified layered encoding schemes within provided data
-* Applied decoding techniques to recover hidden information
-* Demonstrated the importance of identifying encoding patterns
+* Identified layered encoding schemes within provided data  
+* Applied decoding techniques to recover hidden information  
+* Demonstrated the importance of identifying encoding patterns  
 
 ---
 
@@ -143,9 +168,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./exam)
 
-* Investigated encoded challenge content
-* Applied cryptographic analysis to recover hidden data
-* Demonstrated structured decoding methodology
+* Investigated encoded challenge content  
+* Applied cryptographic analysis to recover hidden data  
+* Demonstrated structured decoding methodology  
 
 ---
 
@@ -153,9 +178,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./exam-2)
 
-* Analyzed password hashing techniques
-* Generated candidate passwords using rule-based mutation
-* Demonstrated hash cracking methodology
+* Analyzed password hashing techniques  
+* Generated candidate passwords using rule-based mutation  
+* Demonstrated hash cracking methodology  
 
 ---
 
@@ -163,9 +188,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./exam-3)
 
-* Investigated RSA encryption implementation
-* Identified weaknesses allowing key recovery
-* Demonstrated practical cryptographic exploitation techniques
+* Investigated RSA encryption implementation  
+* Identified weaknesses allowing key recovery  
+* Demonstrated practical cryptographic exploitation techniques  
 
 ---
 
@@ -175,9 +200,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./crackmypass1)
 
-* Investigated hashed password artifacts
-* Applied cracking techniques to recover credentials
-* Demonstrated password security weaknesses
+* Investigated hashed password artifacts  
+* Applied cracking techniques to recover credentials  
+* Demonstrated password security weaknesses  
 
 ---
 
@@ -185,9 +210,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./crackmypass2)
 
-* Generated password candidates through rule-based mutation
-* Applied automated cracking techniques using hashcat
-* Demonstrated the effectiveness of mutation-based attacks
+* Generated password candidates through rule-based mutation  
+* Applied automated cracking techniques using hashcat  
+* Demonstrated the effectiveness of mutation-based attacks  
 
 ---
 
@@ -195,9 +220,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./crackmypass3)
 
-* Identified unknown hashing algorithm
-* Applied hash identification techniques
-* Recovered password through targeted cracking methods
+* Identified unknown hashing algorithm  
+* Applied hash identification techniques  
+* Recovered password through targeted cracking methods  
 
 ---
 
@@ -205,9 +230,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./stolen-footprints)
 
-* Investigated packet capture artifacts
-* Identified attacker file retrieval using FTP commands
-* Reconstructed the stolen file through TCP stream analysis
+* Investigated packet capture artifacts  
+* Identified attacker file retrieval using FTP commands  
+* Reconstructed the stolen file through TCP stream analysis  
 
 ---
 
@@ -215,9 +240,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./mayhem)
 
-* Investigated network artifacts contained in forensic evidence
-* Identified encrypted attacker command-and-control traffic
-* Reconstructed attacker communication through artifact analysis
+* Investigated network artifacts contained in forensic evidence  
+* Identified encrypted attacker command-and-control traffic  
+* Reconstructed attacker communication through artifact analysis  
 
 ---
 
@@ -227,8 +252,8 @@ To respect competition integrity:
 
 🔎 [View Writeup](./eggciting-recovery)
 
-* Investigated public data sources for hidden information
-* Applied OSINT research techniques to identify relevant artifacts
+* Investigated public data sources for hidden information  
+* Applied OSINT research techniques to identify relevant artifacts  
 
 ---
 
@@ -236,8 +261,8 @@ To respect competition integrity:
 
 🔎 [View Writeup](./footprints)
 
-* Investigated digital traces left by an attacker
-* Correlated open-source information to identify relevant evidence
+* Investigated digital traces left by an attacker  
+* Correlated open-source information to identify relevant evidence  
 
 ---
 
@@ -245,9 +270,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./tryfindme)
 
-* Performed reverse image search to determine image location
-* Correlated OSINT sources to verify geographic location
-* Demonstrated practical image geolocation techniques
+* Performed reverse image search to determine image location  
+* Correlated OSINT sources to verify geographic location  
+* Demonstrated practical image geolocation techniques  
 
 ---
 
@@ -255,9 +280,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./operation-slither)
 
-* Investigated social media activity of a suspected threat actor
-* Identified encoded messages hidden within public posts
-* Recovered hidden information through data decoding
+* Investigated social media activity of a suspected threat actor  
+* Identified encoded messages hidden within public posts  
+* Recovered hidden information through data decoding  
 
 ---
 
@@ -267,9 +292,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./chat-bubble)
 
-* Investigated a suspicious image file
-* Identified embedded data within the artifact
-* Extracted hidden content using forensic analysis techniques
+* Investigated a suspicious image file  
+* Identified embedded data within the artifact  
+* Extracted hidden content using forensic analysis techniques  
 
 ---
 
@@ -279,9 +304,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./packet-inspector)
 
-* Analyzed network packet captures using Wireshark
-* Identified suspicious communication patterns
-* Reconstructed attacker activity from captured traffic
+* Analyzed network packet captures using Wireshark  
+* Identified suspicious communication patterns  
+* Reconstructed attacker activity from captured traffic  
 
 ---
 
@@ -289,8 +314,8 @@ To respect competition integrity:
 
 🔎 [View Writeup](./strange-beacon)
 
-* Investigated abnormal network communication
-* Identified beaconing behavior consistent with command-and-control activity
+* Investigated abnormal network communication  
+* Identified beaconing behavior consistent with command-and-control activity  
 
 ---
 
@@ -300,9 +325,9 @@ To respect competition integrity:
 
 🔎 [View Writeup](./get-that-flag-out)
 
-* Investigated a misconfigured SUID binary
-* Demonstrated privilege escalation through binary abuse
-* Highlighted risks of improper permission management
+* Investigated a misconfigured SUID binary  
+* Demonstrated privilege escalation through binary abuse  
+* Highlighted risks of improper permission management  
 
 ---
 
@@ -310,20 +335,20 @@ To respect competition integrity:
 
 🔎 [View Writeup](./archives)
 
-* Investigated nested archive artifacts
-* Identified multiple compression layers with altered file extensions
-* Recovered hidden data through systematic archive extraction
+* Investigated nested archive artifacts  
+* Identified multiple compression layers with altered file extensions  
+* Recovered hidden data through systematic archive extraction  
 
 ---
 
-# 🧠 Key Takeaways
+## 🧠 Key Takeaways
 
-* Authorization flaws can expose sensitive data even when authentication is present
-* File signatures provide more reliable format identification than file extensions
-* OSINT investigations can reveal attacker behavior through public activity
-* Misconfigured Linux permissions often lead to privilege escalation vulnerabilities
-* Layered archives and encoded data are common techniques for hiding information
-* Structured investigative documentation improves analytical clarity
+* Authorization flaws can expose sensitive data even when authentication is present  
+* File signatures provide more reliable format identification than file extensions  
+* OSINT investigations can reveal attacker behavior through public activity  
+* Misconfigured Linux permissions often lead to privilege escalation vulnerabilities  
+* Layered archives and encoded data are common techniques for hiding information  
+* Structured investigative documentation improves analytical clarity  
 
 ---
 
@@ -331,11 +356,11 @@ To respect competition integrity:
 
 ## 👤 Shannon Smith
 
-Cybersecurity | DFIR • Web Security • Threat Analysis
-U.S. Navy Veteran | Virginia Tech — M.S. Information Technology
+Cybersecurity | DFIR • Web Security • Threat Analysis  
+U.S. Navy Veteran | Virginia Tech — M.S. Information Technology  
 
-🛡️ Thinking like an analyst
-🔎 Documenting investigations
-📈 Building repeatable security workflows
+🛡️ Thinking like an analyst  
+🔎 Documenting investigations  
+📈 Building repeatable security workflows  
 
 </div>
