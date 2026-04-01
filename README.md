@@ -166,7 +166,7 @@ These challenges support the following investigation-based projects:
 
 ### **Exam**
 
-🔎 [View Writeup](./exam)
+🔎 [View Writeup](./exam1)
 
 * Investigated encoded challenge content  
 * Applied cryptographic analysis to recover hidden data  
@@ -176,7 +176,7 @@ These challenges support the following investigation-based projects:
 
 ### **Exam 2**
 
-🔎 [View Writeup](./exam-2)
+🔎 [View Writeup](./exam2)
 
 * Analyzed password hashing techniques  
 * Generated candidate passwords using rule-based mutation  
@@ -186,7 +186,7 @@ These challenges support the following investigation-based projects:
 
 ### **Exam 3**
 
-🔎 [View Writeup](./exam-3)
+🔎 [View Writeup](./exam3)
 
 * Investigated RSA encryption implementation  
 * Identified weaknesses allowing key recovery  
