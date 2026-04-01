@@ -216,16 +216,6 @@ These challenges support the following investigation-based projects:
 
 ---
 
-### **CrackMyPass 3**
-
-🔎 [View Writeup](./crackmypass3)
-
-* Identified unknown hashing algorithm  
-* Applied hash identification techniques  
-* Recovered password through targeted cracking methods  
-
----
-
 ### **Stolen Footprints**
 
 🔎 [View Writeup](./stolen-footprints)
