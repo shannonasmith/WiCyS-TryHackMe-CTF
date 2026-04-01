@@ -71,7 +71,6 @@ These challenges support the following investigation-based projects:
 | 🧠 OSINT Investigation   | Social media analysis, geolocation, public intelligence    |
 | 🔍 Reverse Engineering   | Program behavior inspection and analysis                   |
 | 🖼 Steganography         | Hidden data extraction from files                          |
-| 📡 Network Investigation | Packet capture analysis and traffic reconstruction         |
 | 🐧 Linux Security        | File system investigation and privilege escalation         |
 
 ---
@@ -285,27 +284,6 @@ These challenges support the following investigation-based projects:
 * Investigated a suspicious image file  
 * Identified embedded data within the artifact  
 * Extracted hidden content using forensic analysis techniques  
-
----
-
-## 📡 Network Investigation
-
-### **Packet Inspector**
-
-🔎 [View Writeup](./packet-inspector)
-
-* Analyzed network packet captures using Wireshark  
-* Identified suspicious communication patterns  
-* Reconstructed attacker activity from captured traffic  
-
----
-
-### **Strange Beacon**
-
-🔎 [View Writeup](./strange-beacon)
-
-* Investigated abnormal network communication  
-* Identified beaconing behavior consistent with command-and-control activity  
 
 ---
 
