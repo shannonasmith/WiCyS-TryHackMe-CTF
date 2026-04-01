@@ -268,7 +268,7 @@ These challenges support the following investigation-based projects:
 
 ### **Operation Slither 1**
 
-🔎 [View Writeup](./operation-slither)
+🔎 [View Writeup](./operation-slither-1)
 
 * Investigated social media activity of a suspected threat actor  
 * Identified encoded messages hidden within public posts  
